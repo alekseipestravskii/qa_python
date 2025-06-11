@@ -1,5 +1,3 @@
-
-
 class TestBooksCollector:
 
     def test_add_new_book_add_two_books(self, collector):
@@ -58,3 +56,4 @@ class TestBooksCollector:
         collector.set_book_genre('Кот в шляпе', 'Сказка')
         books_for_children = collector.get_books_for_children()
         assert 'Кот в шляпе' in books_for_children
+

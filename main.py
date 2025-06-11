@@ -1,5 +1,6 @@
 import pytest
 
+
 class TestBooksCollector:
 
     def test_add_new_book(self, books_collector):
