@@ -2,6 +2,7 @@ import pytest
 from main import BooksCollector
 
 
-@pytest.fixture(scope='function')
+@pytest.fixture # создаём объект коллекции
 def collector():
-    return BooksCollector()
+    collector = BooksCollector()
+    return collector
